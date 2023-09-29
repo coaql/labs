@@ -1,56 +1,86 @@
-    <style>
+body {
+  font-family: Arial Helvetica monaco;
+  margin:20px;
+  background-color:black;
+  color:white;
+}
 
-      body {
-        color:gray;
-        font-family:times new roman;
-        margin:20px;
-      }
+header {
+  margin-top:-20px;
+  margin-bottom:-20px;
+}
 
-      header {
-        background-image:linear-gradient(to left, white, brown, black); 
-      }
+header a{
+  text-decoration:none;
+  font-family:cursive;
+  font-size:50px;
+}
 
-      header a{
-        color: white;
-        background-color:brown;
-        text-decoration:none;
-        font-family:courier;
-        font-size:80px;
-        border: 5px solid black;
-        margin: -10px;
-      }
+nav {
+  text-align:right;
+  margin:10px;
+  height:35px;
+}
 
-      #hot {
-        margin:10px;
-      }
+nav a{
+  font-size:16px;
+  font-family:monaco;
+  padding-right:10px;
+  padding-left:10px;
+  margin-right: 10px;
+  }
 
-      #hot span button {
-        font-family: cursive;
-        font-size: 25px;
-        color:white;
-        background-color:black;
-        border-radius: 10px;
-        height: 85px;
-        width: 85px;
-        margin: 10px;
-      }
+#content {
+  border: 2px solid #111;
+}  
 
-      .menu details {
-        color:brown;
-      }
+#content hr{
+  border: 1px solid #500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-      table{
-        margin:20px;
-        width:80%;
-        color:black;
-        border-collapse: collapse;
-      }
+#content h1{
+  font-family:monaco;
+  margin:10px;
+}
 
-      table, tr, th{
-        border:2px solid grey;
-      }
-      td {
-        color:white;
-        background-color:grey;
-      }
+#content #hot, .menu{
+  text-align:left;
+  margin: 20px;
+  font-size: 36px;
+}
+
+#hot {
+  margin:10px;
+}
+
+#hot span a img {
+  width=500px; height=600px;
+}
+
+
+.menu summary {
+  text-decoration:none;
+  border: 0.5px solid whitesmoke;
+  width: -webkit-fit-content;
+}
+
+.menu details {
+  text-decoration:none;
+  border: 0.5px solid whitesmoke;
+}
+
+table{
+  margin:20px;
+  width:80%;
+  border-collapse: collapse;
+}
+
+table, tr, th{
+  border:2px solid grey;
+}
+td {
+  text-align: center;
+}
 

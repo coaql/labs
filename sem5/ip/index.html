@@ -1,10 +1,12 @@
 <!-- 
-Classic white backgrounnd cause no one is going to use this site in night time.
+Earlier decided : Classic white backgrounnd cause no one is going to use this site in night time.
+
+current : As requested, added more CSS.
 
 -->
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Peat's</title>
     <link rel="stylesheet" href="index.css">
   </head>
@@ -13,20 +15,30 @@ Classic white backgrounnd cause no one is going to use this site in night time.
   <!-- -->
 
   <!-- peat's branding  -->
-    <header> <a href="#">Peat's</a> </header>
+    <header> 
+      <a href="#">Peat's</a> 
+    </header>
+
+    <nav>
+      <a href="#" >Search</a> 
+      <a href="#" >Cart</a> 
+      <a href="#" >Help</a> 
+      <a href="#" >Sign in</a> 
+    </nav>
 
     <br>
     <br>
     <br>
+    <div id="content">
   <!-- hot picks -->
     <h1>Trending...</h1>
     <hr>
 
   <!-- hot options-->
     <div id="hot">
-      <span><button>chai</button></span>
-      <span><button>samosa</button></span>
-      <span><button>dosa</button></span>
+      <!--
+      <span><a href="#"><img src="items/chai.png" width=200px; height=200px;></a></span>
+      -->
     </div>
 
     <br>
@@ -37,22 +49,19 @@ Classic white backgrounnd cause no one is going to use this site in night time.
     <hr>
 
   <!-- option tucked into detail summary block for avoiding confusion-->
-    <div class="menu" >
+    <div id="menu" >
       <details>
         <summary>Explore all options </summary>
         <table >
+          <tbody id="meals">
           <tr>
-            <th >bruh</td>
-            <th >food</td>
-            <th >so expensive</td>
-            <th >wanna try?</td>
+            <th >Id</th>
+            <th >Food</th>
+            <th >Content</th>
+            <th >Rate</th>
+            <th >Add</th>
           </tr>
-          <tr>
-            <td>bruh</td>
-            <td>food</td>
-            <td>so expensive</td>
-            <td>wanna try?</td>
-          </tr>
+          </tbody>
         </table>
       </details>
       <hr>
@@ -72,8 +81,10 @@ Classic white backgrounnd cause no one is going to use this site in night time.
       </details>
       <hr>
 
+      </div>
+
     </div>
   </body>
-
+  <script src="index.js"></script>
 </html>
 
