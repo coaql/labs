@@ -1,0 +1,110 @@
+<!-- 
+Earlier decided : Classic white backgrounnd cause no one is going to use this site in night time.
+
+current : As requested, added more CSS.
+
+-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Peat's</title>
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="icon" type="image/x-icon" href="static/fav.png">
+  </head>
+
+  <body>
+  <!-- -->
+
+  <!-- peat's branding  -->
+    <header> 
+      <a href="#">Peat's</a>
+    </header>
+
+    <nav >
+      <a href="#" >Search</a> 
+      <a href="#" >Cart</a> 
+      <a href="#" >Help</a> 
+  <!-- if not logged in -->
+      <a href="#" >Sign in</a> 
+  <!-- if logged in <a href="#" >{name}</a> -->
+    </nav>
+
+    <br> <br> <br>
+    <div id="content">
+
+  <!-- hot picks -->
+    <h1>Trending</h1>
+    <hr>
+
+  <!-- hot options-->
+    <div id="hot">
+      <!--
+      <span><a href="#"><img src="items/chai.png" width=200px; height=200px;></a></span>
+      -->
+    </div>
+
+    <br> <br> <br>
+
+  <!-- Todays menu followed by option to choose from -->
+    <h1>Today's Menu</h1>
+    <hr>
+
+  <!-- option tucked into detail summary block for avoiding confusion-->
+    <div id="menu" >
+      <details>
+        <summary>Breakfast</summary>
+        <table >
+          <tbody id="breakfast">
+          <tr>
+            <th >Id</th>
+            <th >Content</th>
+            <th >Food</th>
+            <th >Rate</th>
+            <th >Add</th>
+          </tr>
+          </tbody>
+        </table>
+      </details>
+      <br><br>
+
+      <details>
+        <summary>Meals</summary>
+        <table >
+          <tbody id="meals">
+          <tr>
+            <th >Id</th>
+            <th >Content</th>
+            <th >Food</th>
+            <th >Rate</th>
+            <th >Add</th>
+          </tr>
+          </tbody>
+        </table>
+      </details>
+      <br><br>
+
+      <details>
+        <summary>Refreshments</summary>
+        <table >
+          <tbody id="refreshments">
+          <tr>
+            <th >Id</th>
+            <th >Content</th>
+            <th >Food</th>
+            <th >Rate</th>
+            <th >Add</th>
+          </tr>
+          </tbody>
+        </table>
+      </details>
+      <hr>
+      <br><br>
+
+
+      </div>
+
+    </div>
+  </body>
+  <script src="static/index.js"></script>
+</html>
+

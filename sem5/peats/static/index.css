@@ -1,0 +1,113 @@
+body {
+  font-family: Arial Helvetica monaco;
+  margin:20px;
+  background-color:black;
+  color:white;
+}
+
+header {
+  margin-top:-20px;
+  margin-bottom:-20px;
+}
+
+header a{
+  color:red;
+  text-decoration:none;
+  font-family:cursive;
+  font-size:50px;
+  animation-name:peats;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  box-shadow:10px 10px 15px currentcolor;
+  border-radius: 50px;
+}
+@keyframes peats{
+  0%  {color:red;} 
+  50% {color:cyan;}
+  100%{color:red;}
+}
+
+nav {
+  text-align:right;
+  margin:10px;
+  height:35px;
+}
+
+nav a{
+  font-size:16px;
+  font-family:monaco;
+  padding-right:10px;
+  padding-left:10px;
+  margin-right: 10px;
+  box-shadow:0px 10px 14px currentcolor;
+  }
+
+nav a:hover{
+ color: brown; 
+}
+
+#content {
+  border: 2px solid #111;
+}  
+
+#content hr{
+  border: 1px solid #500;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow:0px 10px 14px currentcolor;
+}
+
+#content h1{
+  text-align:center;
+  font-family:monaco;
+  margin:10px;
+}
+
+#hot {
+  margin:10px;
+}
+
+#hot span a img {
+  width=500px; height=600px;
+}
+
+#menu details summary {
+  text-align:center;
+  color:blue;
+  font-size:38px;
+  text-decoration:none;
+}
+
+#menu details summary:hover {
+  color:red;
+}
+
+#menu details {
+  text-decoration:none;
+}
+
+table{
+  font-size:28px;
+  margin:20px;
+  width:80%;
+  border-collapse: collapse;
+}
+
+table, tr, th{
+  border:2px solid brown;
+}
+th{
+  color:green;
+}
+
+td {
+  text-align: center;
+}
+
+td button {
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  box-shadow: 0px 0px 11px currentcolor;
+  text-align: center;
+}
